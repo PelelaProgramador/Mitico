@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js">
+    </script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+    
+    <link rel="stylesheet" type="text/css" href="css/estilos.css" id="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-l3qK3nUz3dDnW/JUvA4EO4f4gjKM8yWkoC7wHfBh51TFLxjk2ZKPzH10eQVtBftSQfnbptC7J/mBLpvQ2V7gHg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="js/kkk.js">
+    </script>
+    <script src="js/Exito.js">
+
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="img/t1.png" type="image/x-icon">
+    <title>T1</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500&display=swap" rel="stylesheet">
+
+   
+    
+
+    <audio id="my-audio" src="music/TakeOver.mp3"></audio>
+    <button id="btn-musica" onclick="reproducirMusica()">Reproducir música</button>
+
+    <input type="range" id="volume-slider" min="0" max="1" step="0.1" value="1" onchange="setVolume()" style="position: fixed; margin-left: 20px;  z-index: 1; ">
+
+
+    <select id="song-select">
+        <option value="music/TakeOver.mp3">Canción 1</option>
+        <option value="music/Rise.mp3">Canción 2</option>
+        <option value="music/cancion3.mp3">Canción 3</option>
+      </select>
+    
+</head>
+
+<body>
+    
+    <header class="hero">
+        <div class="textos-hero" div id="inicio">
+            <h1 class="h1">T1</h1>
+            <p>Quieres unirte papu?, contesta la encuesta</p>
+            <a class="nav-link" href="#inicio">Inicio</a>
+            <a class="nav-link" href="#QuienesSomos">Acerca de</a>
+            <a class="nav-link" href="#integrantes">integrantes</a>
+            <a class="nav-link" href="#redes sociales">Redes Sociales</a>
+            <a href="#contacto">Contactanos / 문의하기</a>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                
+                    
+
+                  </ul>
+                </div>
+              </nav>
+        </div>
+        <div class="svg-hero" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #5a5093;"></path>
+            </svg></div>
+    </header>
+
+
+    <section class="contenedor website" style="background-image:url(img/LaGrieta.jpg); background-size: cover;">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        </nav>
+        <img src="img/Draven.png" alt="">
+        <div class="contenedor-textos-main" div id="QuienesSomos">
+            <h2 class="titulo left">Quienes somos?</h2>
+            <p class="parrafo">Si te interesa saber, Apreta aqui</p>
+            <a href="https://www.t1.gg" class="cta">바보는 배운다</a>
+        </div>
+      </section>
+
+    <section class="info">
+        <div class="contenedor">
+          <h2 class="titulo left">Te interesa saber?</h2>
+          <p>Sigue Bajando</p>
+        </div>
+        <div class="personas" div id="Personas">
+          <img src="img/FakerFacha.png" alt="Persona 1">
+          <img src="img/FakerFacha2.png" alt="Persona 2">
+          <img src="img/ZeusFacha.png" alt="Persona 3">
+          <!-- agregar más imágenes aquí -->
+        </div>
+      </section>
+    <section class="cards contenedor">
+        <h2 class="titulo" h2 id="redes sociales">Redes Sociales</h2>
+        <div class="content-cards">
+            <article class="card">
+                <img src="img/facebookNegro.png" alt="pog facebook nigga" style="width: 180px; height: auto;">
+                <h3>페이스북</h3>
+                <p>Apreta aqui</p>
+                <a href="https://www.facebook.com/T1LoL" class="cta">Abajo</a>
+            </article>
+            <article class="card">
+                <img src="img/instagram.png" alt="instagram." style="width: 180px; height: auto;">>
+                <h3>인스 타 그램</h3>
+                <p>Apreta aqui</p>
+                <a href="https://www.instagram.com/t1lol/" class="cta">Aqui abajo</a>
+            </article>
+            <article class="card">
+                <img src="img/Twitter Negro.png" alt="ay no twitter es negro" style="width: 180px; height: auto;">
+                <h3>트위터</h3>
+                <p>Apreta aqui</p>
+                <a href="https://twitter.com/T1LoL" class="cta">Aqui pos</a>
+                
+            </article>
+        </div>
+    </section>
+
+    <section class="galeria">
+        <div class="contenedor">
+            <h2 class="titulo" h2 id="integrantes">Nuestros integrantes - 우리 회원들</h2>
+            <article class="galeria-cont">
+                <img src="img/Zeus.jpeg" alt="Zeus">
+                <img src="img/shh-platita.jpg" alt="Shhh platita">
+                <img src="img/OnerPuchito.jpeg" alt="Disfrutando de la paz">
+                <img src="img/gumayusi-god.jpeg" alt="siendo God">
+                <img src="img/Tyler2.jpg" alt="Ta bien">
+                <img src="img/keria-tabien.jpg" alt="Ta bien 2">
+            </article>
+        </div>
+    </section>
+
+    <section class="info-last">
+
+        <div class="contenedor last-section">
+            <div class="contenedor-textos-main">
+                <h2 class="h2">Mejores momentos</h2>
+                <p class="parrafo">El 2017 fue el año en el que T1 brilló con fuerza en el mundo de los deportes electrónicos. 
+                    Su desempeño fue nada menos que épico, destacándose en cada una de sus partidas
+                     y mostrando un nivel de juego que dejaba boquiabiertos a sus fanáticos. 
+                     La estrategia y coordinación del equipo eran impecables, 
+                     lo que les permitió superar con facilidad a sus rivales y ganar torneo tras torneo. 
+                     Sus jugadas eran espectaculares, y parecía que cada movimiento 
+                     estaba cuidadosamente planeado para llevarlos a la victoria. 
+                     Sin duda, el 2017 fue el año de T1, y sus hazañas serán recordadas 
+                     por siempre en la historia de los deportes electrónicos.</p>
+                <a href="https://www.youtube.com/watch?v=XFB0_VHuxnk" class="cta">Epicidad</a>
+                
+                <label class="contrast-switch">
+                    <input type="checkbox" onchange="toggleContrast()">
+                    Cambiar contraste
+                  </label>
+                  <label>
+                    <input type="radio" name="font" value="Arial" onchange="changeFont(this)">
+                    Arial
+                  </label>
+                  <label>
+                    <input type="radio" name="font" value="Verdana" onchange="changeFont(this)">
+                    Verdana
+                  </label>
+                  <label>
+                    <input type="radio" name="font" value="Courier New" onchange="changeFont(this)">
+                    Courier New
+                  </label>
+            </div>
+            
+           
+            <img id="imagen" src="img/Amongus.png" onclick="cambiarImagen()">
+            <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/o8vGaC4OZIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <img src="img/FakerSiendoFaker.jpg" alt="Faker diciendo shh platita" style="float: right;">
+
+
+        </div>
+        
+        <div class="svg-wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+            style="height: 100%; width: 100%;">
+            <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                style="stroke: none; fill: #f5576c;"></path>
+        </svg></div>
+    </section>
+
+    <footer id="Formulario">
+        <div class="contenedor">
+            <form id = "FormularioPulento">
+            <h1>Quieres unirte? Rellena el formulario, Ahora y seras parte del exito </h1>
+            <label class="contrast-switch">
+                <input type="checkbox" onchange="toggleContrast()">
+                Cambiar contraste
+              </label>
+              
+                <p>Nombre</p>
+                <input type="text" id="n1" required>
+                <p>Contraseña</p>
+                <input type="password" id="n2" required>
+                <p>Fecha de nacimiento</p>
+                <input type="date" id="n4" name="fechaNacimiento" onchange="calcularEdad()" required>
+                <p>Edad</p>
+                <input type="number" id="n3" readonly required>
+                <p>Email</p>
+                <input type="email" id="n5" required>
+                <p>País</p>
+                <select id="n6">
+                    <option value="Argentina">Argentina</option>
+                    <option value="Brasil">Brasil</option>
+                    <option value="Chile">Chile</option>
+                    <option value="Colombia">Colombia</option>
+                    <option value="México">México</option>
+                    <option value="Perú">Perú</option>
+                    <option value="España">España</option>
+                    <option value="Estados Unidos">Estados Unidos</option>
+                </select>
+        
+                <p>Número de teléfono</p>
+                <input type="tel" id="n7" maxlength="12" required pattern="[0-9+]+" inputmode="numeric" title="Solo se permiten números y el símbolo '+'">
+                <p>Sexo</p>
+                <input type="radio" id="sexo0" name="sexo" value="hombre" required>
+                <label for="hombre">Hombre</label>
+                <input type="radio" id="sexo1" name="sexo" value="mujer" required>
+                <label for="mujer">Mujer</label><br>
+                
+        
+                <button type="button" id="btn">Registrar</button><br>
+                <span id="contenedorBtnExtra"></span>
+            </form>
+            <div id="contenedorTabla"></div>
+            <script src="js/Exito.js"></script>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/c15b744a04.js" crossorigin="anonymous"></script>
+    
+    <script>
+        var audio = document.getElementById("my-audio");
+        var songSelect = document.getElementById("song-select");
+        var playBtn = document.getElementById("play-btn");
+        var pauseBtn = document.getElementById("pause-btn");
+        var stopBtn = document.getElementById("stop-btn");
+        var volumeSlider = document.getElementById("volume-slider");
+        
+        //function pauseAudio() {
+         //   audio.pause();
+         // }
+    </script>
+    
+
+</body>
+
+</html>

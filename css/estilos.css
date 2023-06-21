@@ -1,0 +1,462 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .contrast {
+    background-color: black;
+    color: white;
+  }
+  
+  .contrast-switch {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+  }
+
+  ---------
+
+:root {
+    --background-color: white;
+    --text-color: black;
+  }
+  
+  .contrast {
+    --background-color: black;
+    --text-color: white;
+  }
+  
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  .contrast-switch {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+RewriteEngine On
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+  }
+  h2 {
+    font-family: 'Nunito', sans-serif;
+    text-align: left;
+    font-weight: 300;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+
+
+
+      }
+      .navbar-nav a.nav-link {
+        background-color: transparent;
+    }
+    #song-select {
+        position: fixed;
+        margin-left: 155px;
+         z-index: 1;
+     }
+     
+     .video-container {
+        float: right;
+        margin-left: 10px; /* opcional: agrega un margen izquierdo para separar el video de otros elementos en la página */
+      }
+/* Estilos de la imagen */
+#imagen {
+    width: 200px;
+    height: 200px;
+  }
+  
+  /* Estilos de la imagen cuando se hace clic */
+  #imagen:active {
+    opacity: 0.5;
+  }
+
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.hero{
+    background-image: linear-gradient(120deg, rgba(64, 5, 240, 0.699) 0%, rgba(198, 80, 80, 0.692) 100%), url("../img/Mundial.png");
+    width: 100%;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+}
+#btn-musica {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #8c223d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+.textos-hero{
+    height: 500px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textos-hero h1{
+    font-size: 60px;
+}
+
+.textos-hero p{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.textos-hero a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px 15px;
+    background: #a18cd1;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.svg-hero{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* Estilos generales */
+
+
+.contenedor,
+.wave-contenedor{
+    width: 100%;
+    max-width: 1000px;
+    overflow: hidden;
+    margin: auto;
+    padding:  0 80px 0;
+}
+.contenedor{
+    padding: 80px 0;
+    background-image: url(img/LaGrieta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.titulo{
+    font-weight: 300;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.titulo.left{
+    text-align: left;
+    
+}
+
+.titulo.right{
+    text-align: right;
+}
+
+/* Section */
+
+.website{
+    display: flex;
+    justify-content: space-between;
+}
+
+.website img{
+    width: 48%;
+}
+
+.website .contenedor-textos-main{
+    width: 40%;
+}
+
+.parrafo{
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.cta{
+    display: inline-block;
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #c92b2b 0%, #fad0c4 99%, #fad0c4 100%);
+    padding: 12px 15px;
+    border-radius: 8px;
+    color: #ffffff;
+}
+
+/* Info */
+
+.info {
+    background: #cc1d57;
+    color: #cc1d57;
+    height: 700px; /* ajustar según tus necesidades */
+  }
+  .personas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%; /* ajustar según tus necesidades */
+  }
+  
+  .personas img {
+    width: 560px; /* que tan grande es*/
+    margin: 0px;
+    flex-wrap: wrap;
+  }
+  figure {
+    text-align: center;
+  }
+  
+  figcaption {
+    margin-top: 10px;
+  }
+
+
+/* Cards */
+
+.content-cards{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 30%;
+    text-align: center;
+    height: 300px;
+    box-shadow: 0 0 3px 0 rgba(157, 127, 127, 0.5);
+    transform: scale(1);
+    transition: transform 0.6s;
+    
+}
+.card img {
+    width: 80%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.card:hover{
+    box-shadow: 0 0 6px 0 rgba(160, 87, 87, 0.5);
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.card i{
+    margin: 30px 0 20px 0;
+    color: #c8989e;
+    font-size: 50px;
+    
+}
+
+.card p{
+    font-weight: 300;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+/* galeria */
+
+.galeria{
+    background: #cc1d57;
+}
+
+.galeria-cont{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.galeria-cont>img{
+    width: 30%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    display: block;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .5);
+    cursor: pointer;
+    overflow: hidden;
+}
+
+/* info2 */
+
+.last-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+.last-section img{
+    width: 48%;
+}
+
+.last-section .contenedor-textos-main{
+    width: 40%;
+}
+
+
+/* footer */
+
+footer{
+    background: #f5576c;
+    color: #fff;
+}
+
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.input{
+    background: transparent;
+    border: 0;
+    color: #fff;
+    outline: none;
+    border: 1px  solid #fff;
+    padding: 20px 10px;
+}
+
+.input::placeholder{
+    color: #fff;
+    font-family: 'raleway', 'sans-serif';
+}
+
+input[type="text"], 
+input[type="email"]{
+    display: inline-block;
+    width: 49%;
+    margin-bottom: 30px;
+}
+
+.form textarea{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+input[type="submit"]{
+    width: 120px;
+    text-align: center;
+    padding: 14px 0;
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+    color: tomato;
+    background: #fff;
+}
+
+@media screen and (max-width:800px){
+    .textos-hero h1{
+        text-align: center;
+        font-size: 50px;
+    }
+    /* estilos generales */
+    .titulo{
+        font-size: 35px;
+    }
+
+    .titulo.left{
+        text-align: center;
+    }
+
+    .info p{
+        text-align: center;
+    }
+
+    /* section */
+    .website{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .website img{
+        width: 100%;
+    }
+
+    .website .contenedor-textos-main{
+        width: 100%;
+    }
+
+    /* Cards */
+
+    .card{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    /* galeria */
+
+    .galeria-cont>img{
+        width: 48%;
+    }
+
+    /* seccion final */
+
+    .last-section img{
+        width: 98%;
+    }
+
+    .last-section .contenedor-textos-main{
+        width: 98%;
+        margin-bottom: 20px;
+    }
+
+
+}
+
+@media screen and (max-width:400px){
+    .titulo,
+    .textos-hero h1{
+        font-size: 30px;
+    }
+
+    .textos-hero p{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .card{
+        height: 380px;
+    }
+
+    .website .contenedor-textos-main{
+        margin-bottom: 30px;
+    }
+
+    .galeria-cont>img{
+        width: 97%;
+    }
+}
